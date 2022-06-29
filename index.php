@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__. '/db.php';
+include __DIR__ . '/db/data.php';
 
 ?>
 
@@ -12,7 +12,13 @@ include __DIR__. '/db.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body><?php
+
+include __DIR__ . '/includes/main.php';
+
+?>
+
+
     
 </body>
 </html>
