@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app{
+    background-color: #1e2d3b;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.disc{
+    flex-basis: calc(100% / 6);
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: #2e3a46;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.info{
+    padding-top: 10px;  
+}
+
+h4{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+span{
+        
+    color: #808077;
+}
